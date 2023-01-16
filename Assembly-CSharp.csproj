@@ -47,6 +47,7 @@
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\WallSlide_NoDust" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Edge-Idle" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Dash Attack" />
+     <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\Sprites\Ground" />
      <Folder Include="Assets\Scripts\Player" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\WallSlide" />
@@ -846,6 +847,12 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

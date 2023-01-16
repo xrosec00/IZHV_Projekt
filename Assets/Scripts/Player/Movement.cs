@@ -11,6 +11,8 @@ public class Movement : MonoBehaviour
     public PlayerInput myPlayerInput;
     public Animator myAnimator;
     public float speed;
+    public bool grounded;
+    public float jumpForce;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,26 +22,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float movement = Input.GetAxisRaw("Horizontal");
-        if(movement != 0)
-        {
-            if (movement < 0)
-            {
-                transform.localScale = new Vector3(-1, 1, 1);
-            }
-            else
-            {
-                transform.localScale = new Vector3(1, 1, 1);
-            }
-            Debug.Log("Movement" + movement);
-            myAnimator.SetFloat("Speed", speed);
-            transform.position += new Vector3(movement * speed, 0.0f, 0.0f);
-            Debug.Log("Transform" + transform.position);
-        }
-        else
-        {
-            myAnimator.SetFloat("Speed", 0.0f);
-        }
+        Move();
     }
 
     public void Reset()
@@ -47,14 +30,69 @@ public class Movement : MonoBehaviour
         transform.position = Vector3.zero;
         transform.rotation = Quaternion.Euler(Vector3.zero);
     }
-    public void Jump()
+    public void OnJump(InputAction.CallbackContext con)
     {
-        Debug.Log("Jump");
+        if (!grounded)
+        {
+            return;
+        }
         myAnimator.SetBool("Jump", true);
-        //TODO
+        myRigidBody.AddForce(new Vector2(0.0f,jumpForce), ForceMode2D.Impulse);
     }
 
-    public void OnMove(InputAction value)
+    private void Move()
     {
+        float movement = Input.GetAxisRaw("Horizontal");
+        if(movement != 0)
+        {
+            if(movement < 0)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            myAnimator.SetFloat("Speed", speed);
+            transform.position += new Vector3(movement * speed, 0.0f, 0.0f);
+        }
+        else
+        {
+            myAnimator.SetFloat("Speed", 0.0f);
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext con)
+    {
+        myAnimator.SetBool("Attack", true);
+        //TODO
+        StartCoroutine(waitFor());
+        
+    }
+
+    IEnumerator waitFor()
+    {
+        yield return new WaitForSeconds(0.5f);
+        myAnimator.SetBool("Attack", false);
+    }
+
+    private void OnTriggerStay2D(Collider2D collider)
+    {
+        Debug.Log("YEEET");
+        if (collider.gameObject.name == "ground")
+        {
+            grounded = true;
+            myAnimator.SetBool("Grounded", true);
+            myAnimator.SetBool("Jump", false);
+        }
+    }
+    
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        if (collider.gameObject.name == "ground")
+        {
+            grounded = false;
+            myAnimator.SetBool("Grounded", false);
+        }
     }
 }
