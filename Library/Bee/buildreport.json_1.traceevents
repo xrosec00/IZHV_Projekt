@@ -1,0 +1,547 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1673907623312219, "dur": 709453, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907623312520, "dur": 1788, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907623314311, "dur": 49002, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907623363315, "dur": 358361, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907623721678, "dur": 298769, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907624020450, "dur": 1220, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907624022097, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1673907623526025, "dur": 175711, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673907623527660, "dur": 63565, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673907623679661, "dur": 6248, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673907623685914, "dur": 15807, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673907623686857, "dur": 13953, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673907623708129, "dur": 2770, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673907623706863, "dur": 4100, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907624022178, "dur": 255, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673907623760551, "dur":1591, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623762155, "dur":144, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673907623762350, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673907623762369, "dur":178, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673907623762569, "dur":687, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623763256, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623998983, "dur":161, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999144, "dur":62, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999206, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999229, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999240, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999244, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999252, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999255, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999261, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999279, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907623999300, "dur":1740, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673907623763610, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623763610, "dur":4333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623767951, "dur":1932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1673907623769940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623776650, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1673907623777540, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1673907623777579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623777586, "dur":7456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1673907623785066, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673907623785086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623785116, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673907623788283, "dur":1190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673907623789477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623789487, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673907623790381, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1673907623790400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623790405, "dur":36228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1673907623826721, "dur":2422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt.exe" }}
+,{ "pid":12345, "tid":1, "ts":1673907623829148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623829154, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt.exe" }}
+,{ "pid":12345, "tid":1, "ts":1673907623835445, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623835732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623835757, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623837987, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623838183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623838190, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623839457, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623839904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623839911, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623842353, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623842545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623842552, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623844109, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623844425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623844430, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623845490, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623845690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623845697, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623846549, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623846790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623846798, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623848924, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623849135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623849140, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623851372, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623851551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623851557, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623852574, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623852803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623852809, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623853594, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623853781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623853787, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623854883, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623855104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623855110, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623856255, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623856434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623856440, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623857689, "dur":950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623858643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623858650, "dur":4368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623863033, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623863222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623863228, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623864142, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623864325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623864331, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623865151, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623865356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623865361, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623866320, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623866494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623866501, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623868087, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623868270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623868277, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623869262, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623869435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623869441, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623870208, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623870368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623870374, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623872253, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623872428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623872434, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623874687, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623874855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623874860, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623875722, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623875964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623875970, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623877214, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623877476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623877483, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623878871, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623879037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623879042, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623880012, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623880194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623880199, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623881941, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623882185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623882191, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623884093, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623884276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623884297, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623885186, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623885381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623885387, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623886223, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623886446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623886451, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623887741, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623887928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623887935, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623888899, "dur":997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623889900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623889925, "dur":12013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623901950, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623902252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623902258, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623904402, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623904571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623904576, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623905492, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623905661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623905668, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623906675, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623906926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623906931, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623910785, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623910978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623910985, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623911715, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623912451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623912458, "dur":8593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623921066, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623921302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623921308, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623922559, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623922792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623922798, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623923667, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623923846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623923853, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623924767, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623924949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623924954, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623927360, "dur":1215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623928639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623928646, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623929999, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623930370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623930378, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623932208, "dur":928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623933140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623933149, "dur":6995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623940157, "dur":1050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623941210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623941216, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623942300, "dur":43947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623986250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673907623986258, "dur":8782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673907623995055, "dur":3914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623763595, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623763596, "dur":4069, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623767677, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1673907623767684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623772243, "dur":463, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1673907623772713, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1673907623772740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623772758, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1673907623775697, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673907623775727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623775734, "dur":4701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673907623780457, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1673907623780480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623780512, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1673907623783298, "dur":2117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1673907623785423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623785448, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1673907623786583, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673907623786600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623786607, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1673907623790564, "dur":2554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623793123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623793189, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623795894, "dur":27599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623823497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623823504, "dur":144261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623967793, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623968136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623968144, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623970461, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623970684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623970691, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623971956, "dur":7644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623979603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673907623979610, "dur":19285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673907623998919, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1673907623998922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623763596, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623763596, "dur":4619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623768215, "dur":2551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623770770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623770938, "dur":5236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623776193, "dur":1927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623778123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623778131, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623781034, "dur":1000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623782038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623782048, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623784206, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1673907623784227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623784235, "dur":5437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1673907623789694, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1673907623789713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623789719, "dur":17407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1673907623807151, "dur":5071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1673907623812227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623812235, "dur":15285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1673907623827545, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1673907623827566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623827584, "dur":60538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1673907623888148, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623888323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623888329, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623891097, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623891263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623891268, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623892077, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623892246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623892251, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623893122, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623893299, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623893305, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623894034, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623894225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623894229, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623895228, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623895392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623895397, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623896636, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623897001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623897007, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623898847, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623899047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623899054, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623900716, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623901093, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623901105, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623902974, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623903166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623903191, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623906129, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623906359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623906364, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623907151, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623907777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623907784, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623913300, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623913495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623913502, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623914281, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623914820, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623914847, "dur":6730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623921591, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623921791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623921798, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623922857, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623923062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623923067, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623924711, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623924887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623924893, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623925877, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623926103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623926108, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623927363, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623927675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623927682, "dur":9186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623936885, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623937097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623937103, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623938797, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623939030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623939036, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623940355, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623940597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623940605, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623941711, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623942146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623942152, "dur":3160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623945325, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623945494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623945501, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623948006, "dur":15565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623963576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623963586, "dur":5466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623969088, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623969714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623969721, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623972585, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623972971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623972996, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623974662, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623974977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623974983, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623976715, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623976910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623976994, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623977943, "dur":871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623978818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623978860, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673907623980116, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1673907623980130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623980136, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1673907623982163, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673907623982176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623982181, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673907623982978, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1673907623983130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623983134, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1673907623984076, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673907623984089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623984093, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673907623985382, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623985544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673907623985550, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1673907623986338, "dur":12626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623763601, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623763602, "dur":4572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623768175, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673907623768204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623776000, "dur":5367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673907623781389, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1673907623781409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623781417, "dur":4871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1673907623786309, "dur":2199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673907623788511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623788519, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673907623790204, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1673907623790225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623790231, "dur":5450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1673907623795707, "dur":10261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623805972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623805980, "dur":36398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623842401, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623842719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623842725, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623844114, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623844319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623844326, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623848890, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623849093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623849100, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623851090, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623851275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623851282, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623852338, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623852515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623852522, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623853627, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623853795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623853800, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623855194, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623855364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623855369, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623857524, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623857773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623857781, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623859084, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623859459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623859466, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623861732, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623861924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623861931, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623865015, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623865305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623865311, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623868083, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623868332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623868337, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623870137, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623870401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623870436, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623872171, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623872360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623872367, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623873267, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623873438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623873444, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623874232, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623874405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623874412, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623875267, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623875497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623875504, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623876547, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623876721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623876727, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623877590, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623877791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623877797, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623878716, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623879016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623879022, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623879998, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623880175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623880181, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623881287, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623881643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623881650, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623882919, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623883098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623883104, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623883939, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623884105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623884111, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623885618, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623886117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623886123, "dur":3754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623889891, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623890073, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623890086, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623891014, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623891183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623891190, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623892007, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623892191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623892197, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623893149, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623893394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623893415, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623894601, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623894784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623894789, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623895665, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623895831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623895836, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623896806, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623897285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623897291, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623899897, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623900136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623900142, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623901228, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623901381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623901387, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623902149, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623902299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623902304, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623903203, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623903372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623903377, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623904321, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623904522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623904529, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623905804, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623905973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623905978, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623906718, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623906964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623906969, "dur":8239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623915221, "dur":1506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623916732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623916740, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623922539, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623923036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623923041, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623925595, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623925786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623925793, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623926677, "dur":2525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623929204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623929210, "dur":10385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623939609, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623939837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623939843, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623941159, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623941382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623941387, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623945092, "dur":1958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623947054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623947062, "dur":8425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623955530, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623956210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623956218, "dur":23855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673907623980086, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1673907623980258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623980278, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1673907623981440, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673907623981455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623981460, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673907623982809, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1673907623983013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623983019, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1673907623983867, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1673907623983881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623983886, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1673907623984619, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1673907623984633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673907623984638, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/School/izhv/Build/IZHV_Projekt/IZHV_Projekt_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1673907623986064, "dur":12911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673907624002922, "dur":2108, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1673907624022491, "dur": 2513, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673907624022085, "dur": 2955, "ph": "X", "name": "Write chrome-trace events", "args": {} },
