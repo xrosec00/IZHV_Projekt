@@ -41,9 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Player\Movement.cs" />
      <Compile Include="Assets\Scripts\Logic and scene\LogicManager.cs" />
      <Compile Include="Assets\Scripts\Logic and scene\SceneManagerScript.cs" />
+     <Compile Include="Assets\Scripts\Player\Movement.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Sprites\Warrior" />
      <Folder Include="Assets\Sprites\UI" />
@@ -85,8 +85,10 @@
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Crouch" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\HurtnoEffect" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Dash_NoDust" />
+     <None Include="Assets\UI\MainMenu.uxml" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Dash" />
      <Folder Include="Assets\Sprites\Warrior\SpriteSheet" />
+     <None Include="Assets\UI\buttn.uss" />
      <Folder Include="Assets\Sprites" />
      <Reference Include="UnityEngine">
      <HintPath>F:\Unity\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
