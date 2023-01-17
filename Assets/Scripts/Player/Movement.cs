@@ -78,8 +78,7 @@ public class Movement : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collider)
     {
-        Debug.Log("YEEET");
-        if (collider.gameObject.name == "ground")
+        if (collider.gameObject.tag == "Platform")
         {
             grounded = true;
             myAnimator.SetBool("Grounded", true);
@@ -89,7 +88,7 @@ public class Movement : MonoBehaviour
     
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.gameObject.name == "ground")
+        if (collider.gameObject.tag == "Platform")
         {
             grounded = false;
             myAnimator.SetBool("Grounded", false);

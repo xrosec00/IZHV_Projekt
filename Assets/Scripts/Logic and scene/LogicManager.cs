@@ -7,9 +7,17 @@ public class LogicManager : MonoBehaviour
 {
     public int health;
     public int score;
+    private bool paused;
 
     public GameObject player;
-    public GameObject sceneManagerScript;
+    public GameObject mSceneManager;
+
+    private SceneManagerScript mSceneMgrScript;
+
+    private void Start()
+    {
+        mSceneMgrScript = mSceneManager.GetComponent<SceneManagerScript>();
+    }
     // Start is called before the first frame update
 
     private void FixedUpdate()
@@ -27,6 +35,24 @@ public class LogicManager : MonoBehaviour
 
     private void Die()
     {
-        sceneManagerScript.GetComponent<SceneManagerScript>().RestartCurrentLevel();
+        //mSceneManager.GetComponent<SceneManagerScript>().RestartCurrentLevel(); //TO DELETE
+        mSceneMgrScript.RestartCurrentLevel();
+    }
+
+    public void Pause()
+    {
+        
+        if (paused)
+        {
+            Time.timeScale = 1;
+            paused = false;
+            mSceneMgrScript.UnpauseGame();  //enables main menu UI, disables main scene UI
+        }
+        else
+        {
+            Time.timeScale = 0;
+            paused = true;
+            mSceneMgrScript.PauseGame();    //disables main menu UI, enables main scene UI
+        }
     }
 }
