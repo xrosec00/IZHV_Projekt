@@ -42,24 +42,31 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player\Movement.cs" />
+     <Compile Include="Assets\Scripts\Logic and scene\LogicManager.cs" />
+     <Compile Include="Assets\Scripts\Logic and scene\SceneManagerScript.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Sprites\Warrior" />
+     <Folder Include="Assets\Sprites\UI" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\WallSlide_NoDust" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Edge-Idle" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Dash Attack" />
      <Folder Include="Assets\Prefabs" />
+     <None Include="Assets\UI\MainSceneUI.uxml" />
      <Folder Include="Assets\Sprites\Ground" />
      <Folder Include="Assets\Scripts\Player" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\WallSlide" />
      <Folder Include="Assets\Animations\Warrior" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Fall" />
+     <Folder Include="Assets\UI" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\DeathnoEffect" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\EdgeGrab" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Hurt-Effect" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\SlideNoEffect" />
+     <Folder Include="Assets\UI Toolkit" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Ladder-Grab" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Slide" />
+     <Folder Include="Assets\Scripts\Logic and scene" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\UptoFall" />
      <Folder Include="Assets\Animations" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Jump" />
@@ -71,6 +78,7 @@
      <None Include="Assets\Sprites\Warrior\Contact.txt" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\UI Toolkit\UnityThemes" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\idle" />
      <Folder Include="Assets\Sprites\Background" />
      <Folder Include="Assets\Sprites\Warrior\Individual Sprite\Dash-Attack_noDust" />
@@ -809,11 +817,17 @@
      <Reference Include="Unity.2D.IK.Runtime">
      <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -847,12 +861,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="com.unity.cinemachine.editor">
-     <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>E:\School\izhv\IZHV_Projekt\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
