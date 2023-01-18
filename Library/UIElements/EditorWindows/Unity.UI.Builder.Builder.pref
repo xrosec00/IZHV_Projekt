@@ -59,6 +59,11 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__1__Unity.UI.Builder.PersistedFoldout
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__2__Unity.UI.Builder.PersistedFoldout
   - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__3__Unity.UI.Builder.PersistedFoldout
+  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__4__Unity.UI.Builder.PersistedFoldout
+  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__5__Unity.UI.Builder.PersistedFoldout
+  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__6__Unity.UI.Builder.PersistedFoldout
+  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__7__Unity.UI.Builder.PersistedFoldout
+  - __PanelContainer__rootVisualContainer__main-view-split-view__middle-right-split-view__unity-ui-builder-inspector__builder-inspector-attributes-inherited-styles-foldout__builder-inspector-matching-selectors-container-foldout__builder-inspector-rule-foldout__8__Unity.UI.Builder.PersistedFoldout
   m_Values:
   - '{"m_FixedPaneDimension":300.0}'
   - '{"m_FixedPaneDimension":450.0}'
@@ -68,18 +73,18 @@ MonoBehaviour:
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ElementInfoVisibilityState":0}'
-  - '{"m_ExpandedItemIds":[1,-1388616659]}'
+  - '{"m_ExpandedItemIds":[1,964424680]}'
   - '{"m_ShowAlternatingRowBackgrounds":0,"m_ScrollOffset":{"x":0.0,"y":0.0}}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_ShowPackageTemplates":false,"m_ViewMode":0,"m_ActiveTab":0}'
-  - '{"m_SelectedItemId":-2090534668}'
-  - '{"m_Value":108.0,"m_LowValue":0.0,"m_HighValue":218.0}'
+  - '{"m_SelectedItemId":-1268115984}'
+  - '{"m_Value":148.0,"m_LowValue":0.0,"m_HighValue":218.0}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{"m_FixedPaneDimension":300.0}'
   - '{"m_FixedPaneDimension":20.0}'
   - '{"m_FixedPaneDimension":200.0}'
-  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":4,"m_CachedContentHeights":[1596.0,2120.0,1927.0,2206.0,1875.0],"m_CachedScrollPositions":[{"scrollPosition":630.0,"maxScrollValue":792.0},{"scrollPosition":702.0,"maxScrollValue":1316.0},{"scrollPosition":486.0,"maxScrollValue":1123.0},{"scrollPosition":486.0,"maxScrollValue":1402.0},{"scrollPosition":747.0,"maxScrollValue":1071.0}]}'
+  - '{"m_CachedScrollPositionCount":5,"m_OldestScrollPositionIndex":0,"m_CachedContentHeights":[1596.0,2120.0,1927.0,2206.0,2336.0],"m_CachedScrollPositions":[{"scrollPosition":630.0,"maxScrollValue":792.0},{"scrollPosition":0.0,"maxScrollValue":1316.0},{"scrollPosition":486.0,"maxScrollValue":1123.0},{"scrollPosition":0.0,"maxScrollValue":1402.0},{"scrollPosition":648.0,"maxScrollValue":1532.0}]}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
   - '{"m_Value":true}'
@@ -96,7 +101,7 @@ MonoBehaviour:
   - '{"m_Value":true}'
   - '{"m_Value":true,"fieldValues":[]}'
   - '{"m_Value":true}'
-  - '{"m_Value":true,"fieldValues":[{"r":0.1882352977991104,"g":0.1882352977991104,"b":0.1882352977991104,"a":255.0},{"r":0.1882352977991104,"g":0.1882352977991104,"b":0.1882352977991104,"a":255.0},{"r":0.1882352977991104,"g":0.1882352977991104,"b":0.1882352977991104,"a":255.0},{"r":0.1411764770746231,"g":0.1411764770746231,"b":0.1411764770746231,"a":255.0}]}'
+  - '{"m_Value":true,"fieldValues":[{"r":0.5843137502670288,"g":0.5843137502670288,"b":0.5843137502670288,"a":255.0},{"r":0.5843137502670288,"g":0.5843137502670288,"b":0.5843137502670288,"a":255.0},{"r":0.5843137502670288,"g":0.5843137502670288,"b":0.5843137502670288,"a":255.0},{"r":0.5843137502670288,"g":0.5843137502670288,"b":0.5843137502670288,"a":255.0}]}'
   - '{"m_Value":true,"fieldValues":[]}'
   - '{"m_Value":true,"fieldValues":[]}'
   - '{"m_Value":false}'
@@ -106,3 +111,8 @@ MonoBehaviour:
   - '{"m_Value":false}'
   - '{"m_Value":false}'
   - '{"m_Value":false}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'

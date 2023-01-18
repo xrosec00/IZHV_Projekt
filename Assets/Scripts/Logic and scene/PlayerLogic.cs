@@ -2,11 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerLogic : MonoBehaviour
 {
-    public int health;
-    public int score;
+    public int playerHealth;
+    private int score = 0;
     public GameObject player;
     public GameObject mSceneManager;
 
@@ -20,7 +21,7 @@ public class PlayerLogic : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (health <= 0)
+        if (playerHealth <= 0)
         {
             Die();
             return;
@@ -43,10 +44,26 @@ public class PlayerLogic : MonoBehaviour
     /**
      * Lose a point of health when hit
      */
-    public void getHit()
+    public void GetHit()
     {
-        health -= 1;
+        playerHealth -= 1;
         var mov = player.GetComponent<Movement>();
-        mov.Knockback(1);       //FIXME
+        //TODO animate
+    }
+
+    public void IncreaseScore(int amount)
+    {
+        score += amount;
+    }
+
+    //Getter functions
+    public int GetScore()
+    {
+        return score;
+    }
+
+    public int GetHealth()
+    {
+        return playerHealth;
     }
 }

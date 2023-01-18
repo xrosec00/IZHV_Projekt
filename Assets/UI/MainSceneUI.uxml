@@ -1,7 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement style="flex-grow: 1; display: flex;">
-        <ui:VisualElement style="height: 32px; flex-direction: row-reverse;">
-            <ui:Button text="Pause" display-tooltip-when-elided="true" style="width: 66px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; background-color: rgb(233, 238, 230); color: rgb(0, 0, 0); padding-left: 3px; padding-right: 3px; margin-left: 1px; margin-right: 1px; height: 21px;" />
+    <ui:VisualElement style="flex-grow: 1; display: flex; flex-direction: row; margin-right: 0;">
+        <ui:VisualElement style="height: 32px; flex-direction: column; margin-right: 80%;">
+            <ui:Label text="Health:  " display-tooltip-when-elided="true" name="health_label" style="margin-right: 2px; font-size: 33px; color: rgba(245, 245, 245, 0.54); height: 30px; width: 190px;" />
+            <ui:Label text="Score: " display-tooltip-when-elided="true" name="score_label" style="margin-right: 2px; font-size: 33px; color: rgba(245, 245, 245, 0.54);" />
         </ui:VisualElement>
+        <ui:Button text="Pause" display-tooltip-when-elided="true" name="pause_button" style="width: 74px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; background-color: rgb(233, 238, 230); color: rgb(0, 0, 0); padding-left: 3px; padding-right: 3px; margin-left: 141px; margin-right: 5px; height: 26px; right: auto; flex-direction: row-reverse; justify-content: flex-start;" />
     </ui:VisualElement>
 </ui:UXML>

@@ -23,23 +23,23 @@ public class LogicManager : MonoBehaviour
 
     void PlayerHit()
     {
-        plLogic.getHit();
+        plLogic.GetHit();
     }
     
     public void Pause()
     {
-        
         if (paused)
         {
-            Time.timeScale = 1;
-            paused = false;
             mSceneMgrScript.UnpauseGame();  //enables main menu UI, disables main scene UI
         }
         else
         {
-            Time.timeScale = 0;
-            paused = true;
             mSceneMgrScript.PauseGame();    //disables main menu UI, enables main scene UI
         }
+    }
+
+    public void SetPause(bool isItPaused)
+    {
+        paused = isItPaused;
     }
 }

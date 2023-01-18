@@ -1,8 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/buttn.uss?fileID=7433441132597879392&amp;guid=9ff7c8a16cddf1843b0e66746b877a69&amp;type=3#buttn" />
     <ui:VisualElement style="margin-left: 30%; margin-right: 30%; margin-top: 15%; margin-bottom: 15%; flex-grow: 1; background-color: rgb(56, 107, 152); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px; border-left-color: rgb(45, 89, 91); border-right-color: rgb(45, 89, 91); border-top-color: rgb(45, 89, 91); border-bottom-color: rgb(45, 89, 91); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;">
-        <ui:Button text="Resume" display-tooltip-when-elided="true" class="button" style="margin-top: 2%; margin-left: 20%; margin-right: 20%; margin-bottom: 0; height: 48px; -unity-text-align: middle-center; white-space: nowrap;" />
-        <ui:Button text="Restart" display-tooltip-when-elided="true" class="button" style="margin-top: 5%; margin-left: 20%; margin-right: 20%; margin-bottom: 0; height: 48px;" />
-        <ui:Button text="Quit" display-tooltip-when-elided="true" class="button" style="margin-top: 5%; margin-left: 20%; margin-right: 20%; margin-bottom: 10px; height: 48px;" />
+        <ui:Button text="Resume" display-tooltip-when-elided="true" name="ResumeButton" class="button" style="margin-top: 2%; margin-left: 20%; margin-right: 20%; margin-bottom: 0; height: 48px; -unity-text-align: middle-center; white-space: nowrap;" />
+        <ui:Button text="Restart" display-tooltip-when-elided="true" name="RestartButton" class="button" style="margin-top: 5%; margin-left: 20%; margin-right: 20%; margin-bottom: 0; height: 48px;" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" class="button" style="margin-top: 5%; margin-left: 20%; margin-right: 20%; margin-bottom: 10px; height: 48px;" />
     </ui:VisualElement>
 </ui:UXML>

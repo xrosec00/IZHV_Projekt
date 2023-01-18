@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour
     public float speed;
     public bool grounded;
     public float jumpForce;
+    private int direction = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
         Move();
+        Debug.DrawRay(transform.position, new Vector3(direction*0.32f, 0), Color.white);
     }
 
     public void Reset()
@@ -49,10 +51,12 @@ public class Movement : MonoBehaviour
             if(movement < 0)
             {
                 transform.localScale = new Vector3(-1, 1, 1);
+                direction = -1; //LEFT
             }
             else
             {
                 transform.localScale = new Vector3(1, 1, 1);
+                direction = 1; //RIGHT
             }
             myAnimator.SetFloat("Speed", speed);
             transform.position += new Vector3(movement * speed, 0.0f, 0.0f);
@@ -63,17 +67,25 @@ public class Movement : MonoBehaviour
         }
     }
 
-    public void Knockback(int direction)
-    {
-        myRigidBody.AddForce(new Vector2(direction, 0));
-    }
-
     public void OnAttack(InputAction.CallbackContext con)
     {
+        Debug.Log("On Attack direction " + direction);
         myAnimator.SetBool("Attack", true);
-        //TODO
+        swordAttack();
         StartCoroutine(waitFor());
-        
+        swordAttack();
+    }
+
+    public void swordAttack()
+    {
+        Vector2 target = new Vector2(direction, 0);
+        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, target, 0.32f, LayerMask.GetMask("Default"));
+        Debug.DrawRay(transform.position, new Vector3(direction*0.32f, 0), Color.red);
+        if (rayHit.collider != null && rayHit.collider.CompareTag("Enemy"))
+        {
+            rayHit.collider.gameObject.GetComponent<EnemyLogic>().GetHit();
+            myLogic.IncreaseScore(1);
+        }
     }
 
     IEnumerator waitFor()
@@ -87,7 +99,7 @@ public class Movement : MonoBehaviour
         if (col.gameObject.CompareTag("Enemy"))
         {
             //TODO animate hit
-            myLogic.getHit();
+            myLogic.GetHit();
         }
     }
 
