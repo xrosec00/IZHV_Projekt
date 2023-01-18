@@ -18,8 +18,7 @@ public class MainSceneScript : MonoBehaviour
         health_label = root.Q<Label>("health_label");
         score_label = root.Q<Label>("score_label");
         pause_button = root.Q<Button>("pause_button");
-
-        pause_button.clicked += (() => scnMgr.PauseGame());
+        //pause_button.clicked += (() => scnMgr.PauseGame());
     }
 
     private void FixedUpdate()

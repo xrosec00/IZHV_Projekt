@@ -30,10 +30,12 @@ public class LogicManager : MonoBehaviour
     {
         if (paused)
         {
+            Debug.Log("Unpausing game in Logic Manager");
             mSceneMgrScript.UnpauseGame();  //enables main menu UI, disables main scene UI
         }
         else
         {
+            Debug.Log("Pausing game in Logic Manager");
             mSceneMgrScript.PauseGame();    //disables main menu UI, enables main scene UI
         }
     }

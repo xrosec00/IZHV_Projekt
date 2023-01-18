@@ -23,3 +23,4 @@ public class MainMenuUIScript : MonoBehaviour
         QuitButton.clicked += () => scnMgr.QuitGame();
     }
 }
+
