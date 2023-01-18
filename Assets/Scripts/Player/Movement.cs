@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class Movement : MonoBehaviour
     public bool grounded;
     public float jumpForce;
     private int direction = 1;
+    private bool attack;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,12 +28,16 @@ public class Movement : MonoBehaviour
     {
         Move();
         Debug.DrawRay(transform.position, new Vector3(direction*0.32f, 0), Color.white);
+        if (attack)
+        {
+            swordAttack();
+        }
     }
 
     public void Reset()
     {
-        transform.position = Vector3.zero;
-        transform.rotation = Quaternion.Euler(Vector3.zero);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
     public void OnJump(InputAction.CallbackContext con)
     {
@@ -71,9 +77,8 @@ public class Movement : MonoBehaviour
     {
         Debug.Log("On Attack direction " + direction);
         myAnimator.SetBool("Attack", true);
-        swordAttack();
+        attack = true;
         StartCoroutine(waitFor());
-        swordAttack();
     }
 
     public void swordAttack()
@@ -92,6 +97,7 @@ public class Movement : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         myAnimator.SetBool("Attack", false);
+        attack = false;
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -120,5 +126,10 @@ public class Movement : MonoBehaviour
             grounded = false;
             myAnimator.SetBool("Grounded", false);
         }
+    }
+
+    public int getDirection()
+    {
+        return direction;
     }
 }
