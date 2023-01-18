@@ -13,7 +13,6 @@ public class SceneManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Scene manager started");
         mMainMenu.rootVisualElement.style.display = DisplayStyle.None;
         mMainScene.rootVisualElement.style.display = DisplayStyle.Flex;
     }

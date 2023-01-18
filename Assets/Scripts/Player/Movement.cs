@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public PlayerInput myPlayerInput;
     public Animator myAnimator;
+    public PlayerLogic myLogic;
     public float speed;
     public bool grounded;
     public float jumpForce;
@@ -62,6 +63,11 @@ public class Movement : MonoBehaviour
         }
     }
 
+    public void Knockback(int direction)
+    {
+        myRigidBody.AddForce(new Vector2(direction, 0));
+    }
+
     public void OnAttack(InputAction.CallbackContext con)
     {
         myAnimator.SetBool("Attack", true);
@@ -76,9 +82,18 @@ public class Movement : MonoBehaviour
         myAnimator.SetBool("Attack", false);
     }
 
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Enemy"))
+        {
+            //TODO animate hit
+            myLogic.getHit();
+        }
+    }
+
     private void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Platform")
+        if (collider.gameObject.CompareTag("Platform"))
         {
             grounded = true;
             myAnimator.SetBool("Grounded", true);
@@ -88,7 +103,7 @@ public class Movement : MonoBehaviour
     
     private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Platform")
+        if (collider.gameObject.CompareTag("Platform"))
         {
             grounded = false;
             myAnimator.SetBool("Grounded", false);

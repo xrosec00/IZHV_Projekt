@@ -1,44 +1,31 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LogicManager : MonoBehaviour
 {
-    public int health;
-    public int score;
-    private bool paused;
-
     public GameObject player;
-    public GameObject mSceneManager;
 
-    private SceneManagerScript mSceneMgrScript;
-
-    private void Start()
-    {
-        mSceneMgrScript = mSceneManager.GetComponent<SceneManagerScript>();
-    }
+    public PlayerLogic plLogic;
+    public SceneManagerScript mSceneMgrScript;
+    private bool paused;
     // Start is called before the first frame update
-
-    private void FixedUpdate()
+    void Start()
     {
-        if (health <= 0)
-        {
-            Die();
-            return;
-        }
-        if (player.transform.position.y < -10.0f)
-        {
-            Die();
-        }
+        
     }
 
-    private void Die()
+    // Update is called once per frame
+    void Update()
     {
-        //mSceneManager.GetComponent<SceneManagerScript>().RestartCurrentLevel(); //TO DELETE
-        mSceneMgrScript.RestartCurrentLevel();
+        
     }
 
+    void PlayerHit()
+    {
+        plLogic.getHit();
+    }
+    
     public void Pause()
     {
         

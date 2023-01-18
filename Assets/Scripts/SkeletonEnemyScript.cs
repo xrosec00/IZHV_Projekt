@@ -13,10 +13,14 @@ public class SkeletonEnemyScript : MonoBehaviour
     private int direction;
     private const int LEFT = -1;
     private const int RIGHT = 1;
+    public Animator enemyAnimator;
     // Start is called before the first frame update
     void Start()
     {
-        direction = LEFT;
+        direction = RIGHT; //FIXME
+        seenPlayer = true;  //FIXME
+        player = GameObject.FindGameObjectWithTag("Player");
+        Debug.Log(player);
     }
 
     // Update is called once per frame
@@ -27,10 +31,20 @@ public class SkeletonEnemyScript : MonoBehaviour
 
     void WalkTowards()
     {
-        Debug.Log("Walking towards");
-        if (seenPlayer)
+        CheckEdge();
+        transform.localScale = new Vector3(direction,1,1);
+        enemyAnimator.SetFloat("Speed", speed);
+        if (seenPlayer) //FIXME
         {
             Vector3 target = player.transform.position;
+            if (target.x < transform.position.x)
+            {
+                direction = LEFT;
+            }
+            else
+            {
+                direction = RIGHT;
+            }
             transform.position = Vector3.MoveTowards(transform.position, target, speed);
         }
         else
@@ -44,15 +58,25 @@ public class SkeletonEnemyScript : MonoBehaviour
     void Move()
     {
         transform.localScale = new Vector3(direction, 0, 0);
-        Debug.Log("In move: " + (direction*speed));
         transform.position += new Vector3(direction * speed, 0, 0);
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    /**
+     * Checks for edge in front of enemy and change direction on edge
+     */
+    bool CheckEdge()
     {
-        if (other.CompareTag("Platform"))
+        Vector2 position = transform.position;
+        Vector2 checker = position + new Vector2(direction * 0.15f, 0);
+        RaycastHit2D rayHit = Physics2D.Raycast(checker, Vector2.down, 1.0f);
+        if (rayHit.collider == null)
         {
-            
+            if (seenPlayer) {seenPlayer = false;}
+            Debug.DrawRay(checker,Vector3.down,Color.green);
+            direction = -direction; //changing direction if close to edge
+            return true;
         }
+        Debug.DrawRay(checker,Vector3.down,Color.white);
+        return false;
     }
 }

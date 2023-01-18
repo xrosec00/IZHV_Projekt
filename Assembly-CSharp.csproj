@@ -41,10 +41,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Logic and scene\LogicManager.cs" />
+     <Compile Include="Assets\Scripts\Logic and scene\PlayerLogic.cs" />
      <Compile Include="Assets\Scripts\Logic and scene\SceneManagerScript.cs" />
-     <Compile Include="Assets\Scripts\Player\Movement.cs" />
      <Compile Include="Assets\Scripts\SkeletonEnemyScript.cs" />
+     <Compile Include="Assets\Scripts\Player\Movement.cs" />
+     <Compile Include="Assets\Scripts\Logic and scene\LogicManager.cs" />
+     <Compile Include="Assets\Scripts\Logic and scene\EnemyLogic.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Sprites\Warrior" />
      <Folder Include="Assets\Sprites\UI" />
