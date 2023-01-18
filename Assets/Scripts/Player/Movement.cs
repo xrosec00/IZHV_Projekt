@@ -17,6 +17,7 @@ public class Movement : MonoBehaviour
     public float jumpForce;
     private int direction = 1;
     private bool attack;
+    private bool hit;
     // Start is called before the first frame update
     void Start()
     {
@@ -84,12 +85,12 @@ public class Movement : MonoBehaviour
     public void swordAttack()
     {
         Vector2 target = new Vector2(direction, 0);
-        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, target, 0.32f, LayerMask.GetMask("Default"));
-        Debug.DrawRay(transform.position, new Vector3(direction*0.32f, 0), Color.red);
+        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, target, 0.35f, LayerMask.GetMask("Default"));
+        Debug.DrawRay(transform.position, new Vector3(direction*0.35f, 0), Color.red);
         if (rayHit.collider != null && rayHit.collider.CompareTag("Enemy"))
         {
             rayHit.collider.gameObject.GetComponent<EnemyLogic>().GetHit();
-            myLogic.IncreaseScore(1);
+            hit = true;
         }
     }
 
@@ -97,6 +98,11 @@ public class Movement : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         myAnimator.SetBool("Attack", false);
+        if (hit == true)
+        {
+            myLogic.IncreaseScore(1);
+        }
+        hit = false;
         attack = false;
     }
 

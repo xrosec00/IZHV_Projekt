@@ -322,7 +322,18 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Logic and scene/EnemyLogic.cs"
+"Assets/Scripts/Logic and scene/EnemySpawner.cs"
+"Assets/Scripts/Logic and scene/LogicManager.cs"
+"Assets/Scripts/Logic and scene/PlatformSpawner.cs"
+"Assets/Scripts/Logic and scene/PlayerLogic.cs"
+"Assets/Scripts/Logic and scene/PrefabLogic.cs"
+"Assets/Scripts/Logic and scene/SceneManagerScript.cs"
+"Assets/Scripts/Logic and scene/SpawnerManager.cs"
 "Assets/Scripts/Player/Movement.cs"
+"Assets/Scripts/Skeleton/SkeletonEnemyScript.cs"
+"Assets/UI/MainMenuUIScript.cs"
+"Assets/UI/MainSceneScript.cs"
 -langversion:9.0
 
 /deterministic
